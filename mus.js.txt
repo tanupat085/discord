@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = "NzA3NDY1ODAwNDA3MzE4NTQ4.XtIQWw.2I58olqJP8JIb0V_AfPmlhy3mtc
+const token = "xxxxxxxxx
 "; 
 const prefix = "!"; 
 
@@ -10,7 +10,7 @@ client.on('ready', function () {
 
 client.music = require("discord.js-musicbot-addon");
 client.music.start(client, {
-  youtubeKey: "AIzaSyA93BWqBLfRXaJHaUEFcu1FsSc4tXsXdJs"
+  youtubeKey: "yyyyyyyyy"
 });
 
 client.login(token);
