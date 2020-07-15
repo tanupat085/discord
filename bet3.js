@@ -5,10 +5,10 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 let as= "play" ;
-let prefix = "kuay" ;
+let prefix = "ky" ;
 client.on('message', msg => {
   if (msg.content === prefix + 'bee') {
-    msg.reply('ไอบี ไอโง่ เหี้ยอ้วน ควายยยยยย');
+    msg.reply('บี ');
   }
   if (msg.content === prefix + 'meen') {
     msg.reply('coke boi chin chin chin chin');
@@ -17,7 +17,7 @@ client.on('message', msg => {
     msg.reply('ศักดิ์ชัย');
   }
   if (msg.content === prefix + 'meen2') {
-    msg.reply('เบาหวานแดกละมึงอะ');
+    msg.reply('เบาหวาน');
   }
   if (msg.content === prefix + 'dota') {
     msg.reply('ใครเค้าเล่นกัน เดี๋ยวนี้ต้อง ROV');
